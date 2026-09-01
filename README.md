@@ -82,6 +82,7 @@ public plugin_init() {
     g_iVipItemId = novaria_vip_extra_items("Thunderbolt", "2", "40"); 
 }
 ![Novaria Zombie Escape](mode1.jpg)
+![Novaria Zombie Escape](mode2.jpg)
 -----------------------------------------------------------------------------
 🇹🇷 TÜRKÇE (TURKISH)
 -----------------------------------------------------------------------------
