@@ -81,7 +81,7 @@ public plugin_init() {
     // 사용법: novaria_vip_extra_items("아이템 이름", "VIP 등급", "가격")
     g_iVipItemId = novaria_vip_extra_items("Thunderbolt", "2", "40"); 
 }
-
+![Novaria Zombie Escape](mode1.jpg)
 -----------------------------------------------------------------------------
 🇹🇷 TÜRKÇE (TURKISH)
 -----------------------------------------------------------------------------
