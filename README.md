@@ -81,6 +81,32 @@ public plugin_init() {
     // 사용법: novaria_vip_extra_items("아이템 이름", "VIP 등급", "가격")
     g_iVipItemId = novaria_vip_extra_items("Thunderbolt", "2", "40"); 
 }
+
+6. 권장 플러그인 로드 순서 (Recommended Plugin Load Order)
+'plugins.ini' 파일에서 아래 순서대로 플러그인을 배치하는 것을 권장합니다. 이 순서는 코어와 서브 플러그인, 확장 아이템 간의 네이티브 등록 충돌을 방지하기 위해 설계되었습니다.
+```
+3pers.amxx
+zp44_extra_balrog_ethereal.amxx
+ze_vip_forzenm4a1.amxx
+Novaria_extra_cso_cartblue_aghlru.amxx
+Novaria_zemainmenu.amxx debug
+Novaria_mainmode.amxx debug
+Novaria_extra_arcana_v.amxx
+novaria_extraknife_DragonSword.amxx
+Novaria_linkgun.amxx
+Novaria_railcannon.amxx
+ze_heli_antibug.amxx
+ze_hp_shower.amxx
+ze_online_vip.amxx
+ze_weapons_model.amxx
+ze_win_model.amxx
+zp_extra_leapstrikegun.amxx
+zp_extra_thunderbolt.amxx
+zp_extra_usas_thunderfall.amxx
+zp_vip_zclass_spider.amxx
+Premium_Petsv3.amxx
+```
+
 ![Novaria Zombie Escape](mode1.jpg)
 ![Novaria Zombie Escape](mode2.jpg)
 -----------------------------------------------------------------------------
@@ -149,6 +175,31 @@ public plugin_init() {
     g_iVipItemId = novaria_vip_extra_items("Thunderbolt", "2", "40"); 
 }
 
+6. Önerilen Eklenti Sıralaması (Recommended Plugin Load Order)
+'plugins.ini' dosyasında eklentileri aşağıdaki sırayla dizmeniz önerilir. Bu sıralama, core, alt eklentiler ve ekstra eşyalar arasındaki native kayıt çakışmalarını önlemek için tasarlanmıştır.
+```
+3pers.amxx
+zp44_extra_balrog_ethereal.amxx
+ze_vip_forzenm4a1.amxx
+Novaria_extra_cso_cartblue_aghlru.amxx
+Novaria_zemainmenu.amxx debug
+Novaria_mainmode.amxx debug
+Novaria_extra_arcana_v.amxx
+novaria_extraknife_DragonSword.amxx
+Novaria_linkgun.amxx
+Novaria_railcannon.amxx
+ze_heli_antibug.amxx
+ze_hp_shower.amxx
+ze_online_vip.amxx
+ze_weapons_model.amxx
+ze_win_model.amxx
+zp_extra_leapstrikegun.amxx
+zp_extra_thunderbolt.amxx
+zp_extra_usas_thunderfall.amxx
+zp_vip_zclass_spider.amxx
+Premium_Petsv3.amxx
+```
+
 -----------------------------------------------------------------------------
 🇬🇧 ENGLISH (ENGLISH)
 -----------------------------------------------------------------------------
@@ -214,3 +265,28 @@ public plugin_init() {
     // Usage: novaria_vip_extra_items("Item Name", "VIP Tier", "Price")
     g_iVipItemId = novaria_vip_extra_items("Thunderbolt", "2", "40"); 
 }
+
+6. Recommended Plugin Load Order
+It's recommended to arrange your 'plugins.ini' in the order below. This sequence is designed to avoid native-registration conflicts between the core, sub-plugins, and extra items.
+```
+3pers.amxx
+zp44_extra_balrog_ethereal.amxx
+ze_vip_forzenm4a1.amxx
+Novaria_extra_cso_cartblue_aghlru.amxx
+Novaria_zemainmenu.amxx debug
+Novaria_mainmode.amxx debug
+Novaria_extra_arcana_v.amxx
+novaria_extraknife_DragonSword.amxx
+Novaria_linkgun.amxx
+Novaria_railcannon.amxx
+ze_heli_antibug.amxx
+ze_hp_shower.amxx
+ze_online_vip.amxx
+ze_weapons_model.amxx
+ze_win_model.amxx
+zp_extra_leapstrikegun.amxx
+zp_extra_thunderbolt.amxx
+zp_extra_usas_thunderfall.amxx
+zp_vip_zclass_spider.amxx
+Premium_Petsv3.amxx
+```
