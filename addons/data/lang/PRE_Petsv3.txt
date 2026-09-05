@@ -1,0 +1,300 @@
+; =====================================================================
+; Novaria Zombie Escape - GitHub: https://github.com/merhabalarrdev
+; [TR] Bu paket topluluga UCRETSIZ sunulmustur. Bu dictionary/dil dosyasi
+; dahil, paketin hicbir parcasi PARAYLA SATILAMAZ ya da ticari amacla
+; pazarlanamaz. Firsatcilara karsi uyarilmis olun.
+; [EN] This package is provided to the community FREE OF CHARGE. No part
+; of it, including this dictionary/language file, may be SOLD FOR MONEY
+; or marketed commercially. Be warned against opportunists.
+; [KO] 이 패키지는 커뮤니티에게 무료로 제공됩니다. 이 사전/언어 파일을
+; 포함한 패키지의 어떠한 부분도 판매되거나 상업적으로 거래될 수
+; 없습니다. 무단 판매자들에게 경고합니다.
+; =====================================================================
+
+[en]
+NO_ACCESS = You do not have permission to access this menu.
+PLAYER_DISCONNECTED = The player has disconnected.
+NO_PETS_IN_SYSTEM = There are no pets in the system.
+NO_PETS_YET = You don't have any pets yet!
+NO_PLAYERS_ON_SERVER = There are no players on the server
+NO_PLAYERS_PERIOD = There are no players on the server.
+
+MAIN_MENU_TITLE = \wPet System \rv3.0
+MENU_ITEM_BUY_PET = Buy a Pet
+MENU_ITEM_MY_PETS = My Pets
+MENU_ITEM_ADMIN_PANEL = Admin Panel
+MENU_BACK = Back
+MENU_NEXT = Next
+MENU_EXIT = Exit
+MENU_HOME = Home
+
+ADMIN_ITEM_GIVE_PET = Give Pet
+ADMIN_ITEM_TAKE_PET = Take Pet
+ADMIN_ITEM_RESET_DATA = Reset Pet Data
+
+GIVE_PET_MENU_TITLE = Give Pet Menu
+TAKE_PET_MENU_TITLE = Take Pet Menu
+
+ADMIN_SELECT_GIVE_TITLE = \wGive Pet to \y%s
+ADMIN_SELECT_TAKE_TITLE = \wTake Pet from \y%s
+
+OWNED = Owned
+NOT_OWNED = Not Owned
+
+RESET_MENU_TITLE = Data Reset
+RESET_ITEM_SINGLE = Reset a Single Player's Data
+RESET_ITEM_ALL = Reset All Data
+RESET_ALL_TITLE = Reset All Data
+RESET_ALL_CONFIRM_YES = Yes, Reset All Data
+RESET_ALL_CONFIRM_NO = No, Go Back
+RESET_ALL_DONE = All pet data has been reset!
+RESET_ALL_BROADCAST = Admin %s has reset all pet data.
+RESET_PLAYER_MENU_TITLE = Reset Player Data
+RESET_PLAYER_DONE_ADMIN = Pet data for player %s has been reset.
+RESET_PLAYER_DONE_TARGET = Admin %s has reset your pet data.
+
+ADMIN_GAVE_PET_TO = You gave the pet ( %s ) to player %s.
+ADMIN_GAVE_PET_NOTICE = Admin %s gave you the pet ( %s ).
+ADMIN_TOOK_PET_FROM = You took the pet ( %s ) from player %s.
+ADMIN_TOOK_PET_NOTICE = Admin %s took your pet ( %s ).
+
+BUY_MENU_TITLE = Buy a Pet
+FLAG_ACCESS_SUFFIX = [ %s Access ]
+
+MY_PETS_MENU_TITLE = My Pets
+ACTIVE_LABEL = Active
+INACTIVE_LABEL = Inactive
+VIEW_LABEL = View
+
+PET_OPS_TITLE = Pet Operations
+PET_NAME_LABEL = Pet Name: ( %s )
+STATUS_LABEL_ACTIVE = Status: Active
+STATUS_LABEL_INACTIVE = Status: Inactive
+DEACTIVATE_PET = Deactivate Pet
+ACTIVATE_PET = Activate Pet
+SELL_PET = Sell Pet
+CHOOSE_ANOTHER_PET = Choose Another Pet
+
+PET_DEACTIVATED = The pet ( %s ) has been deactivated.
+PET_ACTIVATED = The pet ( %s ) has been activated.
+
+PET_SOLD_MONEY = You successfully sold the pet ( %s ) for %d$.
+PET_SOLD_AMMO = You successfully sold the pet ( %s ) for %d Ammo Packs.
+PET_SOLD_BIO = You successfully sold the pet ( %s ) for %d BioPoints.
+PET_SOLD_COIN = You successfully sold the pet ( %s ) for %d Coins.
+
+PET_INFO_TITLE = Pet Info
+PET_NAME_FIELD = [ Pet Name ] -> [ %s ]
+PET_FLAG_FIELD = [ Pet Flag ] -> [ %s ]
+PET_FLAG_ALL = [ Pet Flag ] -> [ all ]
+PRICE_FIELD_MONEY = [ Price ] -> [ %d$ ]
+PRICE_FIELD_AMMO = [ Price ] -> [ %d Ammo ]
+PRICE_FIELD_BIO = [ Price ] -> [ %d BioPoint ]
+PRICE_FIELD_COIN = [ Price ] -> [ %d Coin ]
+ALREADY_PURCHASED = Already Purchased
+BUY_PET_BUTTON = Buy Pet
+
+ALREADY_OWN_PET = You already own this pet.
+MISSING_FLAG = You do not have the required permission to get this pet. [%s]
+
+NOT_ENOUGH_MONEY = You don't have enough money to buy this pet. Required: %d$, You have: %d$
+NOT_ENOUGH_AMMO = You don't have enough Ammo Packs for this pet. Required: %d, You have: %d
+NOT_ENOUGH_BIO = You don't have enough BioPoints for this pet. Required: %d, You have: %d
+NOT_ENOUGH_COIN = You don't have enough Coins for this pet. Required: %d, You have: %d
+
+BOUGHT_PET_MONEY = You bought the pet ( %s ) for %d$. Remaining money: %d$
+BOUGHT_PET_AMMO = You bought the pet ( %s ) for %d Ammo Packs. Remaining Ammo Packs: %d
+BOUGHT_PET_BIO = You bought the pet ( %s ) for %d BioPoints. Remaining BioPoints: %d
+BOUGHT_PET_COIN = You bought the pet ( %s ) for %d Coins. Remaining Coins: %d
+
+[tr]
+NO_ACCESS = Bu menüye erişim yetkiniz yok.
+PLAYER_DISCONNECTED = Oyuncu bağlantısı kesildi.
+NO_PETS_IN_SYSTEM = Sistemde hiç pet bulunmuyor.
+NO_PETS_YET = Henüz hiç petiniz yok!
+NO_PLAYERS_ON_SERVER = Sunucuda hiç oyuncu yok
+NO_PLAYERS_PERIOD = Sunucuda oyuncu yok.
+
+MAIN_MENU_TITLE = \wPet Sistemi \rv3.0
+MENU_ITEM_BUY_PET = Evcil Hayvan Satın Al
+MENU_ITEM_MY_PETS = Evcil Hayvanlarım
+MENU_ITEM_ADMIN_PANEL = Yönetici Paneli
+MENU_BACK = Önceki
+MENU_NEXT = Sonraki
+MENU_EXIT = Çıkış
+MENU_HOME = Ana Sayfa
+
+ADMIN_ITEM_GIVE_PET = Pet Ver
+ADMIN_ITEM_TAKE_PET = Pet Al
+ADMIN_ITEM_RESET_DATA = Pet Verilerini Sıfırla
+
+GIVE_PET_MENU_TITLE = Evcil Hayvan Verme Menüsü
+TAKE_PET_MENU_TITLE = Evcil Hayvan Alma Menüsü
+
+ADMIN_SELECT_GIVE_TITLE = \w%s \wAdlı Oyuncuya \w( \rPet Verme Menüsü\w )
+ADMIN_SELECT_TAKE_TITLE = \w%s \wAdlı Oyuncudan \w( \rPet Alma Menüsü\w )
+
+OWNED = Sahip
+NOT_OWNED = Sahip Değil
+
+RESET_MENU_TITLE = Veri Sıfırlama
+RESET_ITEM_SINGLE = Tekli Oyuncu Verilerini Sıfırla
+RESET_ITEM_ALL = Tüm Verileri Sıfırla
+RESET_ALL_TITLE = Tüm Verileri Sıfırla
+RESET_ALL_CONFIRM_YES = Evet Tüm Verileri Sıfırla
+RESET_ALL_CONFIRM_NO = Hayır Geri Dön
+RESET_ALL_DONE = Tüm pet verileri sıfırlandı!
+RESET_ALL_BROADCAST = %s Yetkilisi tüm Evcil Hayvan verilerini sıfırladı.
+RESET_PLAYER_MENU_TITLE = Oyuncu Veri Sıfırlama
+RESET_PLAYER_DONE_ADMIN = %s adlı oyuncunun Evcil Hayvan verileri sıfırlandı.
+RESET_PLAYER_DONE_TARGET = %s yetkilisi Evcil Hayvan verilerinizi sıfırladı.
+
+ADMIN_GAVE_PET_TO = ( %s ) adlı peti %s oyuncusuna verdiniz.
+ADMIN_GAVE_PET_NOTICE = %s yetkilisi size ( %s ) petini verdi.
+ADMIN_TOOK_PET_FROM = ( %s ) adlı Evcil Hayvanı %s oyuncusundan aldınız.
+ADMIN_TOOK_PET_NOTICE = %s yetkilisi sizden ( %s ) Evcil Hayvanı aldı.
+
+BUY_MENU_TITLE = Evcil Hayvan Satın Al
+FLAG_ACCESS_SUFFIX = [ %s Yetkisi ]
+
+MY_PETS_MENU_TITLE = Evcil Hayvanlarım
+ACTIVE_LABEL = Aktif
+INACTIVE_LABEL = Pasif
+VIEW_LABEL = Göz At
+
+PET_OPS_TITLE = Evcil Hayvan İşlemleri
+PET_NAME_LABEL = Evcil Hayvan Adı: ( %s )
+STATUS_LABEL_ACTIVE = Durum: Aktif
+STATUS_LABEL_INACTIVE = Durum: Pasif
+DEACTIVATE_PET = Evcil Hayvanı Pasifleştir
+ACTIVATE_PET = Evcil Hayvanı Aktifleştir
+SELL_PET = Evcil Hayvanı Sat
+CHOOSE_ANOTHER_PET = Başka Hayvan Seç
+
+PET_DEACTIVATED = ( %s ) adlı Evcil Hayvan kapatıldı.
+PET_ACTIVATED = ( %s ) adlı Evcil Hayvan aktifleştirildi.
+
+PET_SOLD_MONEY = Başarıyla ( %s ) adlı Evcil Hayvanı %d$ karşılığında sattınız.
+PET_SOLD_AMMO = Başarıyla ( %s ) adlı Evcil Hayvanı %d Ammo karşılığında sattınız.
+PET_SOLD_BIO = Başarıyla ( %s ) adlı Evcil Hayvanı %d BioPoint karşılığında sattınız.
+PET_SOLD_COIN = Başarıyla ( %s ) adlı Evcil Hayvanı %d Coin karşılığında sattınız.
+
+PET_INFO_TITLE = Pet Bilgisi
+PET_NAME_FIELD = [ Pet Adı ] -> [ %s ]
+PET_FLAG_FIELD = [ Pet Flag ] -> [ %s ]
+PET_FLAG_ALL = [ Pet Flag ] -> [ all ]
+PRICE_FIELD_MONEY = [ Fiyat ] -> [ %d$ ]
+PRICE_FIELD_AMMO = [ Fiyat ] -> [ %d Ammo ]
+PRICE_FIELD_BIO = [ Fiyat ] -> [ %d BioPoint ]
+PRICE_FIELD_COIN = [ Fiyat ] -> [ %d Coin ]
+ALREADY_PURCHASED = Satın Alındı
+BUY_PET_BUTTON = Evcil Hayvanı Al
+
+ALREADY_OWN_PET = Bu pet zaten sizde mevcut.
+MISSING_FLAG = Bu peti almak için gerekli yetkiye sahip değilsiniz. [%s]
+
+NOT_ENOUGH_MONEY = Bu Evcil Hayvanı almak için yeterli paranız yok. Gerekli Olan: %d$, Sizde Olan: %d$
+NOT_ENOUGH_AMMO = Bu Evcil Hayvanı için yeterli Cephane Paketiniz yok. Gerekli Olan: %d, Sizde Olan: %d
+NOT_ENOUGH_BIO = Bu Evcil Hayvanı için yeterli BioPointiniz yok. Gerekli Olan: %d, Sizde Olan: %d
+NOT_ENOUGH_COIN = Bu Evcil Hayvanı için yeterli Coininiz yok. Gerekli Olan: %d, Sizde Olan: %d
+
+BOUGHT_PET_MONEY = ( %s ) adlı Evcil Hayvanı %d$ karşılığında aldınız. Kalan paranız: %d$
+BOUGHT_PET_AMMO = ( %s ) adlı Evcil Hayvanı %d Cephane Paketi karşılığında aldınız. Kalan Cephane Paketiniz: %d
+BOUGHT_PET_BIO = ( %s ) adlı Evcil Hayvanı %d BioPoint karşılığında aldınız. Kalan BioPointiniz: %d
+BOUGHT_PET_COIN = ( %s ) adlı Evcil Hayvanı %d Coin karşılığında aldınız. Kalan Coininiz: %d
+
+[ko]
+NO_ACCESS = 이 메뉴에 접근할 권한이 없습니다.
+PLAYER_DISCONNECTED = 플레이어의 연결이 끊어졌습니다.
+NO_PETS_IN_SYSTEM = 시스템에 등록된 펫이 없습니다.
+NO_PETS_YET = 아직 보유한 펫이 없습니다!
+NO_PLAYERS_ON_SERVER = 서버에 플레이어가 없습니다
+NO_PLAYERS_PERIOD = 서버에 플레이어가 없습니다.
+
+MAIN_MENU_TITLE = \w펫 시스템 \rv3.0
+MENU_ITEM_BUY_PET = 펫 구매
+MENU_ITEM_MY_PETS = 내 펫
+MENU_ITEM_ADMIN_PANEL = 관리자 패널
+MENU_BACK = 이전
+MENU_NEXT = 다음
+MENU_EXIT = 나가기
+MENU_HOME = 홈
+
+ADMIN_ITEM_GIVE_PET = 펫 지급
+ADMIN_ITEM_TAKE_PET = 펫 회수
+ADMIN_ITEM_RESET_DATA = 펫 데이터 초기화
+
+GIVE_PET_MENU_TITLE = 펫 지급 메뉴
+TAKE_PET_MENU_TITLE = 펫 회수 메뉴
+
+ADMIN_SELECT_GIVE_TITLE = \w%s\w 님에게 펫 지급
+ADMIN_SELECT_TAKE_TITLE = \w%s\w 님에게서 펫 회수
+
+OWNED = 보유중
+NOT_OWNED = 미보유
+
+RESET_MENU_TITLE = 데이터 초기화
+RESET_ITEM_SINGLE = 특정 플레이어 데이터 초기화
+RESET_ITEM_ALL = 모든 데이터 초기화
+RESET_ALL_TITLE = 모든 데이터 초기화
+RESET_ALL_CONFIRM_YES = 예, 모든 데이터를 초기화합니다
+RESET_ALL_CONFIRM_NO = 아니오, 돌아가기
+RESET_ALL_DONE = 모든 펫 데이터가 초기화되었습니다!
+RESET_ALL_BROADCAST = 관리자 %s 님이 모든 펫 데이터를 초기화했습니다.
+RESET_PLAYER_MENU_TITLE = 플레이어 데이터 초기화
+RESET_PLAYER_DONE_ADMIN = %s 님의 펫 데이터가 초기화되었습니다.
+RESET_PLAYER_DONE_TARGET = 관리자 %s 님이 당신의 펫 데이터를 초기화했습니다.
+
+ADMIN_GAVE_PET_TO = ( %s ) 펫을 %s 님에게 지급했습니다.
+ADMIN_GAVE_PET_NOTICE = 관리자 %s 님이 당신에게 ( %s ) 펫을 지급했습니다.
+ADMIN_TOOK_PET_FROM = %s 님으로부터 ( %s ) 펫을 회수했습니다.
+ADMIN_TOOK_PET_NOTICE = 관리자 %s 님이 당신의 ( %s ) 펫을 회수했습니다.
+
+BUY_MENU_TITLE = 펫 구매
+FLAG_ACCESS_SUFFIX = [ %s 권한 ]
+
+MY_PETS_MENU_TITLE = 내 펫
+ACTIVE_LABEL = 활성
+INACTIVE_LABEL = 비활성
+VIEW_LABEL = 보기
+
+PET_OPS_TITLE = 펫 관리
+PET_NAME_LABEL = 펫 이름: ( %s )
+STATUS_LABEL_ACTIVE = 상태: 활성
+STATUS_LABEL_INACTIVE = 상태: 비활성
+DEACTIVATE_PET = 펫 비활성화
+ACTIVATE_PET = 펫 활성화
+SELL_PET = 펫 판매
+CHOOSE_ANOTHER_PET = 다른 펫 선택
+
+PET_DEACTIVATED = ( %s ) 펫이 비활성화되었습니다.
+PET_ACTIVATED = ( %s ) 펫이 활성화되었습니다.
+
+PET_SOLD_MONEY = ( %s ) 펫을 %d$에 성공적으로 판매했습니다.
+PET_SOLD_AMMO = ( %s ) 펫을 탄약 팩 %d개에 성공적으로 판매했습니다.
+PET_SOLD_BIO = ( %s ) 펫을 바이오포인트 %d로 성공적으로 판매했습니다.
+PET_SOLD_COIN = ( %s ) 펫을 코인 %d개에 성공적으로 판매했습니다.
+
+PET_INFO_TITLE = 펫 정보
+PET_NAME_FIELD = [ 펫 이름 ] -> [ %s ]
+PET_FLAG_FIELD = [ 펫 플래그 ] -> [ %s ]
+PET_FLAG_ALL = [ 펫 플래그 ] -> [ all ]
+PRICE_FIELD_MONEY = [ 가격 ] -> [ %d$ ]
+PRICE_FIELD_AMMO = [ 가격 ] -> [ %d 탄약 ]
+PRICE_FIELD_BIO = [ 가격 ] -> [ %d 바이오포인트 ]
+PRICE_FIELD_COIN = [ 가격 ] -> [ %d 코인 ]
+ALREADY_PURCHASED = 구매 완료
+BUY_PET_BUTTON = 펫 구매하기
+
+ALREADY_OWN_PET = 이미 보유 중인 펫입니다.
+MISSING_FLAG = 이 펫을 얻으려면 필요한 권한이 없습니다. [%s]
+
+NOT_ENOUGH_MONEY = 이 펫을 구매하기에 돈이 부족합니다. 필요 금액: %d$, 보유 금액: %d$
+NOT_ENOUGH_AMMO = 이 펫을 위한 탄약 팩이 부족합니다. 필요: %d, 보유: %d
+NOT_ENOUGH_BIO = 이 펫을 위한 바이오포인트가 부족합니다. 필요: %d, 보유: %d
+NOT_ENOUGH_COIN = 이 펫을 위한 코인이 부족합니다. 필요: %d, 보유: %d
+
+BOUGHT_PET_MONEY = ( %s ) 펫을 %d$에 구매했습니다. 남은 금액: %d$
+BOUGHT_PET_AMMO = ( %s ) 펫을 탄약 팩 %d개로 구매했습니다. 남은 탄약 팩: %d
+BOUGHT_PET_BIO = ( %s ) 펫을 바이오포인트 %d로 구매했습니다. 남은 바이오포인트: %d
+BOUGHT_PET_COIN = ( %s ) 펫을 코인 %d개로 구매했습니다. 남은 코인: %d
